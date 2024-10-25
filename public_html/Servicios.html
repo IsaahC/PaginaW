@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - Sistema de Gestión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #0779e4;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #cccccc;
+            font-weight: bold;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .btn {
+            display: inline-block;
+            background: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #0779e4;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Sistema</span> de Gestión</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca.html">Acerca de</a></li>
+                    <li class="current"><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Nuestros Servicios y Planes</h2>
+        
+        <div class="card">
+            <h3>Plan Básico</h3>
+            <p>Ideal para pequeñas empresas</p>
+            <p><strong>Precio: $99/mes</strong></p>
+            <ul>
+                <li>Gestión de inventario</li>
+                <li>Facturación básica</li>
+                <li>Soporte por email</li>
+            </ul>
+            <a href="#" class="btn">Seleccionar Plan</a>
+        </div>
+
+        <div class="card">
+            <h3>Plan Profesional</h3>
+            <p>Para empresas en crecimiento</p>
+            <p><strong>Precio: $199/mes</strong></p>
+            <ul>
+                <li>Todo lo del Plan Básico</li>
+                <li>CRM integrado</li>
+                <li>Informes avanzados</li>
+                <li>Soporte prioritario</li>
+            </ul>
+            <a href="#" class="btn">Seleccionar Plan</a>
+        </div>
+
+        <div class="card">
+            <h3>Plan Empresarial</h3>
+            <p>Solución completa para grandes empresas</p>
+            <p><strong>Precio: $299/mes</strong></p>
+            <ul>
+                <li>Todo lo del Plan Profesional</li>
+                <li>API personalizada</li>
+                <li>Integración con sistemas existentes</li>
+                <li>Soporte 24/7</li>
+            </ul>
+            <a href="#" class="btn">Seleccionar Plan</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sistema de Gestión. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
